@@ -1,0 +1,40 @@
+:root {
+    --W: 100vw;
+    --H: 100vh;
+    --BORDER-RAD: 5px;
+
+}
+
+.nav-item-main {
+    user-select: none;
+    width: calc(var(--W) / 12);
+    height: calc(var(--H) / 20);
+
+    border-radius: var(--BORDER-RAD);
+  
+
+    display: flex;
+
+}
+
+.nav-item-text-container {
+    width: 80%;
+    height: inherit;
+   
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-item-icon-container {
+    width: 20%;
+    height: inherit;
+    
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}

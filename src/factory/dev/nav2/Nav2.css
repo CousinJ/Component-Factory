@@ -1,0 +1,16 @@
+:root{
+    --W: 100vw;
+    --H: 100vh;
+}
+
+.nav-main {
+    width: var(--W);
+    height: calc(var(--H) / 10);
+    background-color: aqua;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}

@@ -1,0 +1,86 @@
+/* variables for calculation  */
+:root {
+    --width: 100vw;
+    --nav-list-height: 20vh;
+}
+
+
+
+
+
+
+
+
+
+
+.nav-main {
+    width: var(--width);
+    min-height: var(--nav-list-height);
+
+    display: flex;
+    flex-direction: row;
+    /* align the nav list */
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+
+
+
+.nav-list {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    
+    flex-direction: row;
+   
+    width: auto;
+    height: 5vh;
+}
+
+
+
+
+
+.nav-item {
+width: calc(var(--width) / 6);
+display: flex;
+flex-direction: row;
+
+
+list-style: none;
+}
+
+
+
+
+
+.item-text {
+    font-size: larger;
+width: calc(var(--width) / 12);
+height: calc(var(--nav-list-height) / 4) ;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+text-align: center;
+
+}
+
+.item-icon {
+    background-position: center;
+    
+    height:inherit;
+    
+}
+
+
+
+
+
+
+
+

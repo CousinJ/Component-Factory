@@ -1,0 +1,50 @@
+:root {
+    --W: 100vw;
+    --H: 100vh;
+    --ITEM-H: calc(var(--H) / 20);
+    --BORDER-RAD: 5px;
+}
+
+
+
+.drop-down-main {
+    transition: all 200ms ease-in ;
+    position: absolute;
+   
+    border-radius: var(--BORDER-RAD);
+    
+    
+   width: 20vw;
+   height: auto;
+  
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.drop-down-item {
+    transition: all 200ms ease;
+    font-size: large;
+    width: inherit;
+    height: var(--ITEM-H);
+
+    display: flex;
+   justify-content: center; /* Center horizontally */
+   align-items: center; /* Center vertically */
+    
+   
+   
+    
+}
+
+
+.drop-down-item:hover {
+    filter: brightness(.9);
+    
+}
+
+.drop-down-item:hover p {
+    scale: 1.05;
+    filter: brightness(.8)
+}
